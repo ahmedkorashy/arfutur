@@ -233,9 +233,9 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = '<span class="toc-note">جميع المواضيع ' + postTitle.length + ' كاملة<br/></span>'; }
+      var tocNote = '<span class="toc-note">عدد المواضيع ' + postTitle.length + ' موضوع<br/></span>'; }
    else {
-      var tocNote = '<span class="toc-note">عرض ' + numDisplayed + ' مواضيع في قسم \'';
+      var tocNote = '<span class="toc-note">عرض ' + numDisplayed + ' موضوع في قسم \'';
       tocNote += postFilter + '\' من '+ postTitle.length + ' اجمالي المواضيع<br/></span>';
    }
    tocdiv.innerHTML = tocNote + tocTable;
