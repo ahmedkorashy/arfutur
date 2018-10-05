@@ -182,9 +182,9 @@ function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
    var tocTable = '';
-   var tocHead1 = 'عنوان المقال';
+   var tocHead1 = 'العنوان';
    var tocTool1 = 'انقر ل فرز حسب العنوان';
-   var tocHead2 = 'تاريخ المقال';
+   var tocHead2 = 'التاريخ';
    var tocTool2 = 'انقر ل ترتيب النتائج بحسب التاريخ';
    var tocHead3 = 'الأقسام';
    var tocTool3 = '';
